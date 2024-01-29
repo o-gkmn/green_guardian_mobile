@@ -1,0 +1,24 @@
+name: green_guardian
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  record: ^5.0.4
+  noise_meter: ^5.0.2
+  permission_handler: ^11.2.0
+  http: ^0.13.3
+  chat_gpt_sdk: 2.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
